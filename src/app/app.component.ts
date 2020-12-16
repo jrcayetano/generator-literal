@@ -83,7 +83,7 @@ export class AppComponent implements OnInit{
         let sqlLiteral = [];
         sqlLiteral = [].concat(...sqlLanguage,...sqlscreen);
         sqlLiteral.unshift(`-- ${property}`);
-        sqlLiteral.push('-----------------------------------------------------------------------------------------------------------');
+        sqlLiteral.push('-- ---------------------------------------------------------------------------------------------------------');
         sqls.push(sqlLiteral);
 
       }
